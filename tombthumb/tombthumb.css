@@ -1,0 +1,39 @@
+body{
+  background-color: aquamarine;
+  background: aquamarine url("./tombthumb_resources/5.jpg");
+}
+.container {
+  padding-top: 150px;
+  max-width: 1000px;
+}
+
+.title {
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  font-family: "Japanese 3017";
+}
+
+h1,
+h3,
+label {
+  color: white;
+  font-family: "Japanese 3017";
+}
+
+#result{
+  display: none;
+}
+
+#notresult{
+  display: none;
+}
+
+
+

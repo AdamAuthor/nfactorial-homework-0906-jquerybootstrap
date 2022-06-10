@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="madlibs.css" rel="stylesheet" type="text/css" media="all">
+    <title>MadLibs</title>
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="questions">
+        <h1 class="title">Mad Libs</h1>
+        <hr>
+        <form role="form">
+          <div class="form-group mb-3">
+            <label for="person">Person Name</label>
+            <input for="person" class="form-control person" type="text" required>
+          </div>
+          <div class="form-group mb-3">
+            <label for="character">Character</label>
+            <input id="character" class="form-control character" type="text" required>
+          </div>
+          <div class="form-group mb-3">
+            <label for="adverb">Adverb</label>
+            <input id="adverb" class="form-control adverb" type="text" required>
+          </div>
+          <div class="form-group mb-3">
+            <label for="adjective">Adjective</label>
+            <input for="adjective" class="form-control adjective" type="text" required>
+          </div>
+          <div class="button">
+            <button type="submit" class="btn btn-info btn-lg" id="btn">Tell Story</button>
+          </div>
+        </form>
+        <hr>
+      </div>
+
+      <div id="story">
+        <h1>Wendy's Crazy MadLibs Story</h1>
+        <hr>
+        <h3>One day, my friend <span class="person"></span> was visiting New York and ran into <span class="character"></span>. <span class="person"></span> ran <span class="adverb"></span> to meet <span class="character"></span>. But <span class="character"></span> turned out to be very <span class="adjective"></span> and <span class="person"></span> did not enjoy the meeting.</h3>
+      </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="madlibs.js"></script>
+  </body>
+</html>
+
+
+
+
+

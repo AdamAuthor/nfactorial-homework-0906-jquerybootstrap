@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomb Thumb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="tombthumb.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div class="container">
+      <div id="calculator">
+        <h1 class="title">Tom Thumb</h1>
+        <hr>
+        <form role="form">
+          <div class="form-group mb-3">
+            <label for="w">Image width (px)</label>
+            <input for="w" class="form-control w" type="text" required>
+          </div>
+          <div class="form-group mb-3">
+            <label for="h">Image height (px)</label>
+            <input id="h" class="form-control h" type="text" required>
+          </div>
+          <div class="form-group mb-3">
+            <label for="num">Number of Colors</label>
+            <input id="num" class="form-control num" type="text" required>
+          </div>
+          <div class="button">
+            <button type="submit" class="btn btn-primary btn-lg" id = "button">Calculate</button>
+          </div>
+        </form>
+        <hr>
+      </div>
+
+      <div id="result">
+        <h3>File is <span class="num"></span>KB which is OK!.</h3>
+      </div>
+
+      <div id="notresult">
+        <h3>File is <span class="num"></span>KB which is bad(( Please use a different icon.</h3>
+      </div>
+
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="tombthumb.js"></script>
+  </body>
+</html>
+
+
+
+
+
